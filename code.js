@@ -8,3 +8,7 @@ post.addEventListener("click", function(){
     document.getElementById("unordered").appendChild(li);
  
 });
+
+function myFunction(x) {
+    x.classList.toggle("fa-thumbs-down");
+  }
